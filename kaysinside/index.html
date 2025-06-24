@@ -1,0 +1,82 @@
+<html>
+
+    <head> 
+        <title>Kay er kul</title>
+        <style>
+        
+        #muscle {
+            background-image: url("muscle.jpg");
+            z-index: 1;
+            width: 300px;
+            height: 168px;
+            position: absolute;
+            left: -400px;
+            animation-delay: 1s;
+            animation-timing-function: linear;
+            animation-name: move-muscle;
+            animation-duration: 1s;
+            animation-direction: normal;
+            animation-fill-mode: forwards;
+        }
+    
+        @keyframes move-muscle {
+            0% {
+                left: -400px;
+                top: 250px;
+            
+            }
+        
+            100% {
+                left: 750px;
+                top: 250px;
+                transform: rotate(1080deg);
+            }
+        }    
+        
+        #konen {
+            color: olive;
+                
+        }
+        
+        #muskler {
+            color: maroon;
+            font-size: 20;
+        } 
+            
+            
+        </style>
+    </head>
+    
+    <body>
+        <!-- Nettleseren vil skjule alle kommentarer for de som besøker siden. h1 er en overskrift -->
+        <h1 id="toppen"> Nettsiden til Kay </h1>
+        <hr>
+        <h2 id="muskler"> Musklene hans, og hvor de kommer fra </h2>
+        <p class=hvorfor1>Det som gjør at han har blitt så <strong> sterk </strong> er den <em>ekstreme</em> mengden kaffi han drikker hver dag. 
+            Han blir så oppkvikka at han kan lage sånne nettsider som dette.</p>
+        
+        <hr>
+         <div id="muscle"></div>
+        <div> 
+            <p class="hvorfor 2"> Her kommer ett nytt poeng: han har og en <code>vakker</code> kone som skryter masse av hvor fin kropp han har og det er motiverende for å trene både kondisjon og styrke </p>
+            <img src="sykkel.jpg" width="260" height="340" alt="Dette er teksten du vil se når du beveger muspilen over bildet">
+        </div>
+        <!-- Her er ett paragraph med en link inni -->
+        <p> Kay liker veldig godt å løpe, og <a href="running_man.png"> her ser du han løpe </a>. Men det gjør han bare litt ofte, hehe.</p>
+        <div id ="lenke til profilbilde"> 
+            <p> <a href="kay.jpg"> Her er en lenke </a> til hans tidligere profilbilde på facebook</p>
+        </div>
+        <div> 
+            <p>For å komme til toppen kan du <a href="#toppen"> trykke her </a>. Da spretter du opp til overskriften på nettsiden. </p>
+        </div>
+        <p> Her er nettsiden kay har hentet inspirasjon til sin nettside fra: <a href = https://oppgaver.kidsakoder.no/web/introduksjon_til_web/introduksjon_til_web> kidsakoder </a> </p>
+        <hr>
+        <h2 id="konen"> Den utrolige konen hans </h2>
+        <div>
+            <a href="https://norkirkengrimstad.no/ny-ettaring/"> <img src="hanna.jpg" width="400" height="280"> </a>
+            <p> Hvis du trykker på bildet av henne så kommer du inn på en side hvor du kan lese om hennes tid som ett-åring i Grimstad </p>
+        </div>
+        
+    </body>
+        
+</html>
